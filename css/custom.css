@@ -1,0 +1,156 @@
+p{
+	font-family: 'Open sans', sans-serif;
+}
+.navbar-default {
+    background-color: #474747;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 0;				
+}
+
+.navbar-brand, .navbar-nav li a{
+	height: 80px;
+	line-height: 80px;	
+	padding: 0 25px;
+	margin-left: 1px;
+	font-family: Roboto, 'sans-serif';
+	font-size: 1.3em;	
+	color: #fff;
+	background-color: #474747;
+	border-right:1px solid #393939;
+	-webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+		
+}
+
+.navbar-brand{
+	padding-right: 0;	
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #535252;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	color: #fff;
+    background-color: #535252;
+}
+
+li.twitter a{
+	width: 80px;
+	background-color: #5ea9dd !important;
+	color: #fff !important;
+	font-size: 1.8em;
+	text-align: center;							
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #3d3d3d;	
+}
+
+li.facebook a{
+	width: 80px;
+	background-color: #3b5998 !important;
+	color: #fff !important;
+	font-size: 1.8em;
+	text-align: center;
+	box-shadow: none;
+	border-right: none;										
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #a09d9d;
+    margin-top: 25px;
+}
+
+li.twitter a:hover, li.facebook a:hover{
+	opacity: 0.8;	
+}
+
+/* header */
+
+header{
+	height: 600px;
+	text-align: center;	
+	background-color: #6d6d6d;
+	padding-top: 120px;			
+}
+
+.profile_picture{
+	border: 10px solid #fff;
+	-webkit-box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+    box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+	
+}
+
+header h2{
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;	
+	font-family: Roboto, 'sans-serif';
+	color: #fff;			 				
+}
+
+header p{
+	color: #fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.3em;
+	padding: 0 20px;					
+}
+
+/*Main content*/
+
+.main-content{
+	padding: 60px 100px;	
+}
+
+.main-content h3{
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: 'Open sans', sans-serif;
+	color: #d559a8;
+	border: 3px solid #d559a8;
+	padding: 15px 25px;
+	text-transform: uppercase;	
+}
+
+.main-content h4{
+	color: #3f3f3f;
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.main-content h4 small{
+	color: #a0a0a0;	
+	font-size: .8em;
+	border-left: 1px solid #a0a0a0;	
+	padding-left: 15px;
+	margin-left: 10px;			
+}
+
+.main-content .about-me p{
+	font-size: 1.2em;
+	color: #a0a0a0;		
+}
+
+/* /Main content*/
+
+
+
+@media (max-width: 	768px){
+	.navbar-default .navbar-nav>li>a {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #3E3D3D;	
+	}
+}
